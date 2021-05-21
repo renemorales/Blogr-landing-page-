@@ -24,15 +24,15 @@
 </head>
 
 <body>
-  <header class="page-header">
-    <div class="logo-box">
-      <img src="/images/logo.svg" alt="logo-Blogr">
+  <header class="header">
+    <div class="header__logo-box">
+      <img class="header__logo" src="/images/logo.svg" alt="logo-Blogr">
     </div>
-    <nav class="page-header__navbar">
-      <ul class="page-header__navbar__menu">
-        <li class="page-header__navbar--list">
+    <nav class="header__navbar">
+      <ul class="header__navbar__list">
+        <li class="header__navbar__list-item">
           <a href="#product">product</a>
-          <ul class="">
+          <ul class="header__navbar__sub-list">
             <li><a href="#">Overview</a></li>
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Marketplace</a></li>
@@ -40,33 +40,31 @@
             <li><a href="#">Integrations</a></li>
           </ul>
         </li>
-        <li>
+        <li class="header__navbar__list-item">
           <a href="#company">company</a>
-          <ul class="page-header__navbar__sub-menu">
+          <ul class="header__navbar__sub-list">
             <li><a href="#">about</a></li>
             <li><a href="#">team</a></li>
             <li><a href="#">blog</a></li>
             <li><a href="#">careers</a></li>
           </ul>
         </li>
-        <li>
-          <a href="#conect">connect</a>
-          <ul class="page-header__navbar__sub-menu">
+        <li class="header__navbar__list-item">
+          <a href="#connect">connect</a>
+          <ul class="header__navbar__sub-list">
             <li><a href="#">contact</a></li>
             <li><a href="#">newsletter</a></li>
             <li><a href="#">linkedIn</a></li>
           </ul>
         </li>
-        <li>
-          <a href="#login">login</a>
-        </li>
+        <li><a href="#login">login</a></li>
         <li><a href="#signup">sign up</a></li>
       </ul>
     </nav>
   </header>
   <main class="main">
     <section class="hero">
-      <h1 class="title">A modern publishing platform</h1>
+      <h1 class="hero__title">A modern publishing platform</h1>
       <p>Grow your audience and build your online brand</p>
       <div class="hero__btn">
         <button type="submit">Start for Free</button>
@@ -74,26 +72,26 @@
       </div>
     </section>
     <section class="description">
-      <div class="description--left-column">
-        <h2 class="sub-title">Designed for the future</h2>
-        <div class="intro">
+      <div class="description__left-column">
+        <h2 class="description__sub-title">Designed for the future</h2>
+        <div class="description__intro">
           <h3>Introducing an extensible editor</h3>
-          <p class="info">
+          <p class="description__intro--info">
             Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
             The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
             videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
             change the looks of a blog.
           </p>
         </div>
-        <div class="intro">
+        <div class="description__intro">
           <h3> Robust content management</h3>
-          <p class="info">
+          <p class="description__intro--info">
             Flexible content management enables users to easily move through posts. Increase the usability of your blog
             by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
           </p>
         </div>
       </div>
-      <div class="description--right-column">
+      <div class="description__right-column">
         <img src="/images/illustration-editor-desktop.svg" alt="illustration-desktop-img">
       </div>
     </section>
@@ -102,7 +100,7 @@
         <img src="/images/illustration-phones.svg" alt="blogr-mobile-img">
       </div>
       <div class="services__right-column">
-        <h2 class="sub-title">State of the Art Infrastructure</h2>
+        <h2 class="services__sub-title">State of the Art Infrastructure</h2>
         <p>
           With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
           This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
@@ -114,8 +112,8 @@
         <img src="/images/illustration-laptop-desktop.svg" alt="">
       </div>
       <div class="features__right-column">
-        <div class="features__right-column--info">
-          <h2 class="sub-title">Free, open, simple</h2>
+        <div class="features__right-column__info">
+          <h2 class="features__right-column__info__sub-title">Free, open, simple</h2>
           <p>
             Blogr is a free and open source application backed by a large community of helpful developers. It supports
             features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
@@ -123,8 +121,8 @@
             and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
           </p>
         </div>
-        <div class="features__right-column--info">
-          <h2>Powerful tooling</h2>
+        <div class="features__right-column__info">
+          <h2 class="features__right-column__info__sub-title">Powerful tooling</h2>
           <p>
             Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a
             breeze,
@@ -135,13 +133,13 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="logo-box">
+    <div class="footer__logo-box">
       <img src="/images/logo.svg" alt="logo-blogr">
     </div>
     <div class="footer__links">
-      <ul class="footer__links--menu">
+      <ul class="footer__links__list">
         <li>product</li>
-        <ul class="footer__links--sub-menu">
+        <ul class="footer__links__sub-list">
           <li><a href="#">Overview</a></li>
           <li><a href="#">Pricing</a></li>
           <li><a href="#">Marketplace</a></li>
@@ -149,26 +147,25 @@
           <li><a href="#">Integrations</a></li>
         </ul>
       </ul>
-
-      <ul class="footer__links--menu">
+      <ul class="footer__links__list">
         <li>Company</li>
-        <ul class="footer__links--sub-menu">
+        <ul class="footer__links__sub-list">
           <li><a href="#">About</a></li>
           <li><a href="#">Team</a></li>
           <li><a href="#"> Blog</a></li>
           <li><a href="#">Careers</a></li>
         </ul>
       </ul>
-      <ul class="footer__links--menu">
+      <ul class="footer__links__list">
         <li>connect</li>
-        <ul class="footer__links--sub-menu">
+        <ul class="footer__links__sub-list">
           <li><a href="#">contact</a></li>
           <li><a href="#">lewsletter</a></li>
           <li><a href="#">linkedIn</a></li>
         </ul>
       </ul>
     </div>
-    <div class="attribution">
+    <div class="footer__attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Rene Morales</a>.
     </div>
