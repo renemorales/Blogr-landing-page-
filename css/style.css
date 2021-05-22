@@ -1,0 +1,96 @@
+/* reausable code */
+
+
+.header {
+  background: linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  padding: 20px;
+}
+
+.container {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__left-column {
+  display: flex;
+  align-items: center;
+}
+
+.header__navbar__list {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+
+}
+
+.header__navbar__list-item {
+  position: relative;
+}
+
+.header__navbar__list-item a {
+  padding-left: 20px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+
+.header__navbar__sub-list {
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  /* top: 30px; */
+  left: 0;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.header__navbar__list-item:hover .header__navbar__sub-list {
+  display: block;
+  z-index: 99;
+}
+
+.header__navbar__sub-list a {
+  text-align: center;
+  line-height: 2;
+  color: hsl(240, 2%, 79%);
+
+}
+
+.header__navbar__sub-list a:hover {
+  color: #2D2E40;
+
+}
+
+
+.header__right-column .btn-main {
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.header__right-column .btn-main:first-child {
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+
+.header__right-column .btn-main:last-child {
+  padding: 10px 28px;
+  border-radius: 20px;
+  border: 0;
+  color: #ff3d54;
+}
+
+.header__right-column .btn-main:last-child:hover {
+  background-color: #FF7B86;
+  color: white;
+}
