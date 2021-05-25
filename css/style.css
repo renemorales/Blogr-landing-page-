@@ -340,3 +340,57 @@ body {
   line-height: 2;
   color: #4C5862;
 }
+
+.footer {
+  background-color: #24242C;
+  padding: 30px;
+  width: 100%;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  padding: 40px;
+  height: 175%;
+}
+
+.footer__logo-box {
+  width: 20%;
+  text-align: center;
+  height: 175px;
+}
+
+
+.footer__links__list-item {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 4;
+  text-transform: capitalize;
+}
+
+.footer__links__list {
+  padding-right: 100px;
+}
+
+.footer__links__sub-list li {
+  padding: 10px 0;
+}
+
+.footer__links__sub-list li a {
+  color: #979797;
+  text-transform: capitalize;
+
+}
+
+.footer__links__sub-list li a:hover {
+  text-decoration: underline;
+}
+
+.footer__attribution {
+  text-align: center;
+  font-size: 12px;
+  color: #979797;
+  letter-spacing: 1.2px;
+}
