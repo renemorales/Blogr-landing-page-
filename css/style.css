@@ -1,6 +1,7 @@
 /* reausable code */
 body {
   font-family: 'Ubuntu', sans-serif;
+  background-color: #F2F2F2;
 }
 
 .btn {
@@ -195,7 +196,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
-  background-color: #F2F2F2;
   color: #1F3E5A;
   position: relative;
   overflow: hidden;
@@ -257,7 +257,9 @@ body {
 .services {
   display: flex;
   flex-direction: row;
-  background: linear-gradient(264deg, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  background: url('/images/bg-pattern-circles.svg'), linear-gradient(264deg, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  background-repeat: no-repeat;
+  background-position: 0% 83%;
   width: 100%;
   border-top-right-radius: 130px;
   border-bottom-left-radius: 130px;
