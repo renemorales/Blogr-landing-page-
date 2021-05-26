@@ -311,7 +311,7 @@ body {
 
 .features__right-column {
   width: 50%;
-  margin: 140px;
+  margin: 140px 0;
   line-height: 4;
   padding: 20px;
 }
@@ -404,5 +404,17 @@ body {
     top: -2rem;
     left: -0.5rem;
     height: 518px;
+  }
+
+  .features__left-column img {
+    right: 0;
+  }
+
+  .features__right-column__info {
+    padding: 0;
+  }
+
+  .footer__links {
+    width: 100%;
   }
 }
