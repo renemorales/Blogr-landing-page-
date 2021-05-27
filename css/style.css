@@ -8,7 +8,7 @@ body {
   border-radius: 20px;
   font-weight: bold;
   cursor: pointer;
-  width: 130px;
+  width: 140px;
   height: 45px;
   border: none;
   letter-spacing: 1.2px;
@@ -26,7 +26,7 @@ body {
 }
 
 .btn-main:hover {
-  box-shadow: inset 130px 0 0 0 hsl(355, 100%, 74%);
+  box-shadow: inset 140px 0 0 0 hsl(355, 100%, 74%);
   /* background-color: hsl(355, 100%, 74%); */
   color: white;
 }
